@@ -1,0 +1,20 @@
+.footer {
+  background-color: #49a2da;
+  color: red;
+  text-decoration-color: red;
+  text-align: left;
+  margin-left: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+}
+.footerText {
+  color: orange;
+}
+@media only screen and (max-width: 800px){
+  .footer{
+    width: 100%;
+    position: sticky;
+  }
+}
